@@ -1,7 +1,7 @@
 {
-  "name": "Tutorial-cascading-failure",
-  "version": "0.1.0",
-  "description": "Tutorial: cascading failure",
+  "name": "summerschool-frontend",
+  "version": "1.0.0",
+  "description": "An exercise that implements a ecomerce and add a new feature",
   "engines": {
     "npm": ">=3"
   },
@@ -111,6 +111,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tinker-Ware/Tutorial-cascading-failure"
+    "url": "https://github.com/Tinker-Ware/summerschool-frontend"
   }
 }
