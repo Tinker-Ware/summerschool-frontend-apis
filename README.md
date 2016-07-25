@@ -1,7 +1,7 @@
-# Tinkerware Provision Webpage
+# Summer School - Frontend
 
-[![Build Status](https://travis-ci.org/Tinker-Ware/Tutorial-cascading-failure.svg?branch=master)](https://travis-ci.org/Tinker-Ware/Tutorial-cascading-failure)
-[![Coverage Status](https://coveralls.io/repos/github/Tinker-Ware/Tutorial-cascading-failure/badge.svg?branch=master)](https://coveralls.io/github/Tinker-Ware/Tutorial-cascading-failure?branch=master)
+[![Build Status](https://travis-ci.org/Tinker-Ware/summerschool-frontend.svg?branch=master)](https://travis-ci.org/Tinker-Ware/summerschool-frontend)
+[![Coverage Status](https://coveralls.io/repos/github/Tinker-Ware/summerschool-frontend/badge.svg?branch=master)](https://coveralls.io/github/Tinker-Ware/summerschool-frontend?branch=master)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.txt)
 [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
