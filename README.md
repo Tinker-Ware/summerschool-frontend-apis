@@ -1,4 +1,4 @@
-# Tinkerware Provision Webpage
+# Summer School - Frontend
 
 [![Build Status](https://travis-ci.org/Tinker-Ware/summerschool-frontend.svg?branch=master)](https://travis-ci.org/Tinker-Ware/summerschool-frontend)
 [![Coverage Status](https://coveralls.io/repos/github/Tinker-Ware/summerschool-frontend/badge.svg?branch=master)](https://coveralls.io/github/Tinker-Ware/summerschool-frontend?branch=master)
