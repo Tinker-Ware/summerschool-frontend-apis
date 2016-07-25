@@ -1,0 +1,55 @@
+FORMAT: 1A
+HOST: http://tinkerware.io
+
+# Cart API
+An API that manages the user's Cart
+
+# Group Cart
+Resources related to the user's cart
+
+## Cart Collection [/api/v1/cart/{id}]
++ Parameters
+    + id: `1` (number, required) - `id` of a cart
+
+### Get an Cart [GET]
++ Request
+
+    + Header
+
+            authorization: Bearer qphYSqjEFk1RcFxYqqIIFk4vaBJvDoBr3t9aHTp1JFEAO0NS7ECyLJJyUPybOUNf
+
+
++ Response 200 (application/json)
+
+    + Header
+
+            authorization: Bearer qphYSqjEFk1RcFxYqqIIFk4vaBJvDoBr3t9aHTp1JFEAO0NS7ECyLJJyUPybOUNf
+
+    + Body
+
+            {
+              "cart": {
+                  "id": 1,
+                  "user_id": 1,
+                  "products": {
+                    "products": [
+                      {
+                        "id": 2,
+                        "title": "Dearlovers",
+                        "description": "Chiffon Blouse U Neck",
+                        "price": 89.99,
+                        "category": "Women",
+                        "image": "pc1.jpg"
+                      },
+                      {
+                        "id": 5,
+                        "title": "Nautica",
+                        "description": "Slim Fit",
+                        "price": 76.99,
+                        "category": "Men",
+                        "image": "pc4.jpg"
+                      }
+                    ]
+                }
+              }
+            }
