@@ -19,6 +19,6 @@ export default (
     <Route
       path="/men" />
     <Route
-      path="/features" />
+      path="/feature" />
   </Route>
 );
