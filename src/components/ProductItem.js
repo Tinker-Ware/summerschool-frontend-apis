@@ -1,15 +1,9 @@
 import React, {PropTypes} from 'react';
 
 const ProductItem = ( props ) => {
-  const PrintFeatureItem =
-    (props.feature)?
-      <span className="feature-product">
-        <img src={require("../images/featured_product.png")} alt={'feature '+props.title}/>
-      </span> : "";
   return (
       <div key={props.identifier} className="col-md-3 item-grid simpleCart_shelfItem">
         <div className="mid-pop">
-          {PrintFeatureItem}
           <div className="pro-img">
             <img src={require("../images/"+props.image)} className="img-responsive" alt={props.title}/>
           </div>
@@ -46,7 +40,6 @@ ProductItem.propTypes = {
   title: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  feature: PropTypes.bool.isRequired,
   price: PropTypes.number.isRequired,
   image: PropTypes.string.isRequired
 };

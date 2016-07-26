@@ -18,7 +18,5 @@ export default (
       path="/women" />
     <Route
       path="/men" />
-    <Route
-      path="/feature" />
   </Route>
 );
